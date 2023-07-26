@@ -18,26 +18,26 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(relay1, HIGH);
-  digitalWrite(relay2, LOW);
-  digitalWrite(relay3, LOW);
-  digitalWrite(relay4, LOW);
-  delay(1000);
-  digitalWrite(relay1, LOW);
-  digitalWrite(relay2, HIGH);
-  digitalWrite(relay3, LOW);
-  digitalWrite(relay4, LOW);
-  delay(1000);
-  digitalWrite(relay1, LOW);
-  digitalWrite(relay2, LOW);
-  digitalWrite(relay3, HIGH);
-  digitalWrite(relay4, LOW);
-  delay(1000);
   digitalWrite(relay1, LOW);
   digitalWrite(relay2, LOW);
   digitalWrite(relay3, LOW);
   digitalWrite(relay4, HIGH);
-  delay(1000);
+  delay(500);
+  digitalWrite(relay1, LOW);
+  digitalWrite(relay2, LOW);
+  digitalWrite(relay3, HIGH);
+  digitalWrite(relay4, LOW);
+  delay(500);
+  digitalWrite(relay1, LOW);
+  digitalWrite(relay2, HIGH);
+  digitalWrite(relay3, LOW);
+  digitalWrite(relay4, LOW);
+  delay(500);
+  digitalWrite(relay1, HIGH);
+  digitalWrite(relay2, LOW);
+  digitalWrite(relay3, LOW);
+  digitalWrite(relay4, LOW);
+  delay(500);
 }
 
 // Path: MainCode.ino
