@@ -32,10 +32,10 @@ void setup() {
 void loop() {
     // put your main code here, to run repeatedl
     /* 
-    digitalWrite(outRelay1, LOW);
+    digitalWrite(outRelay1, HIGH);
     digitalWrite(outRelay2, LOW);
     digitalWrite(outRelay3, LOW);
-    digitalWrite(outRelay4, HIGH);
+    digitalWrite(outRelay4, LOW);
 
     digitalWrite(inRelay1, LOW);
     digitalWrite(inRelay2, LOW);
@@ -45,8 +45,8 @@ void loop() {
     delay(500);
 
     digitalWrite(outRelay1, LOW);
-    digitalWrite(outRelay2, LOW);
-    digitalWrite(outRelay3, HIGH);
+    digitalWrite(outRelay2, HIGH);
+    digitalWrite(outRelay3, LOW);
     digitalWrite(outRelay4, LOW);
 
     digitalWrite(inRelay1, LOW);
@@ -57,8 +57,8 @@ void loop() {
     delay(500);
 
     digitalWrite(outRelay1, LOW);
-    digitalWrite(outRelay2, HIGH);
-    digitalWrite(outRelay3, LOW);
+    digitalWrite(outRelay2, LOW);
+    digitalWrite(outRelay3, HIGH);
     digitalWrite(outRelay4, LOW);
 
     digitalWrite(inRelay1, LOW);
@@ -68,10 +68,10 @@ void loop() {
 
     delay(500);
 
-    digitalWrite(outRelay1, HIGH);
+    digitalWrite(outRelay1, LOW);
     digitalWrite(outRelay2, LOW);
     digitalWrite(outRelay3, LOW);
-    digitalWrite(outRelay4, LOW);
+    digitalWrite(outRelay4, HIGH);
 
     digitalWrite(inRelay1, HIGH);
     digitalWrite(inRelay2, LOW);
@@ -85,48 +85,48 @@ void loop() {
     digitalWrite(outRelay3, HIGH);
     digitalWrite(outRelay4, LOW);
 
-    digitalWrite(inRelay1, HIGH);
-    digitalWrite(inRelay2, HIGH);
-    digitalWrite(inRelay3, HIGH);
-    digitalWrite(inRelay4, LOW);
+    digitalWrite(inRelay1, LOW);
+    digitalWrite(inRelay2, LOW);
+    digitalWrite(inRelay3, LOW);
+    digitalWrite(inRelay4, HIGH);
 
-    delay(500);
+    delay(250);
 
     digitalWrite(outRelay1, HIGH);
     digitalWrite(outRelay2, HIGH);
     digitalWrite(outRelay3, LOW);
     digitalWrite(outRelay4, HIGH);
 
-    digitalWrite(inRelay1, HIGH);
-    digitalWrite(inRelay2, HIGH);
-    digitalWrite(inRelay3, LOW);
-    digitalWrite(inRelay4, HIGH);
+    digitalWrite(inRelay1, LOW);
+    digitalWrite(inRelay2, LOW);
+    digitalWrite(inRelay3, HIGH);
+    digitalWrite(inRelay4, LOW);
 
-    delay(500);
+    delay(250);
 
     digitalWrite(outRelay1, HIGH);
     digitalWrite(outRelay2, LOW);
     digitalWrite(outRelay3, HIGH);
     digitalWrite(outRelay4, HIGH);
 
-    digitalWrite(inRelay1, HIGH);
-    digitalWrite(inRelay2, LOW);
-    digitalWrite(inRelay3, HIGH);
-    digitalWrite(inRelay4, HIGH);
+    digitalWrite(inRelay1, LOW);
+    digitalWrite(inRelay2, HIGH);
+    digitalWrite(inRelay3, LOW);
+    digitalWrite(inRelay4, LOW);
 
-    delay(500);
+    delay(250);
 
     digitalWrite(outRelay1, LOW);
     digitalWrite(outRelay2, HIGH);
     digitalWrite(outRelay3, HIGH);
     digitalWrite(outRelay4, HIGH);
 
-    digitalWrite(inRelay1, LOW);
-    digitalWrite(inRelay2, HIGH);
-    digitalWrite(inRelay3, HIGH);
-    digitalWrite(inRelay4, HIGH);
+    digitalWrite(inRelay1, HIGH);
+    digitalWrite(inRelay2, LOW);
+    digitalWrite(inRelay3, LOW);
+    digitalWrite(inRelay4, LOW);
 
-    delay(500);
+    delay(250);
     
 }
 
