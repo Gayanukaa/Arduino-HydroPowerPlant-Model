@@ -69,5 +69,3 @@ void loop() {
 
     delay(500);
 }
-
-// Path: MainCode.ino

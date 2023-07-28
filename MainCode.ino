@@ -30,8 +30,8 @@ void setup() {
 }
 
 void loop() {
-    // put your main code here, to run repeatedl
-    /* 
+    // put your main code here, to run repeatedly
+    // Single wave point
     digitalWrite(outRelay1, HIGH);
     digitalWrite(outRelay2, LOW);
     digitalWrite(outRelay3, LOW);
@@ -78,8 +78,10 @@ void loop() {
     digitalWrite(inRelay3, LOW);
     digitalWrite(inRelay4, LOW);
 
-    delay(500); */
+    delay(500);
 
+    /*
+    //Three wave point
     digitalWrite(outRelay1, HIGH);
     digitalWrite(outRelay2, HIGH);
     digitalWrite(outRelay3, HIGH);
@@ -127,7 +129,7 @@ void loop() {
     digitalWrite(inRelay4, LOW);
 
     delay(250);
-    
+    */
 }
 
 // Path: MainCode.ino
