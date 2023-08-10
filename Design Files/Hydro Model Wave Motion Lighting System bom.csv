@@ -1,0 +1,7 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"K1, K2, K3, K4, K5, K6, K7, K8",8," Relay SPDT"
+"BAT2, BAT4",2," 9V Battery"
+"Bat1, Bat3, Bat5, Bat6",4,"1 battery, AA, no 1.5V Battery"
+"D16, D17, D18, D31, D100, D111, D112, D113, D114, D126, D127, D25, D26, D32, D30, D4, D5, D15, D1, D2, D3, D6, D7, D8, D9, D10, D11, D12, D13, D14, D19, D20, D21, D22, D23, D24, D27, D28, D29, D101, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51, D52, D53, D54, D55, D56, D57, D58, D59, D60, D61, D62, D63, D64, D65, D66, D67, D68, D69, D70, D71, D72",80,"Red LED"
+"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20",20,"230 Ω Resistor"
